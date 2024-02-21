@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="23.815" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\vsaji\.cache\selenium\chromedriver\win64\121.0.6167.184\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\vsaji\TekArch\eclipse-workspace\SeleniumAutomationFrameworkPOM\target\test-classes;C:\Users\vsaji\TekArch\eclipse-workspace\SeleniumAutomationFrameworkPOM\target\classes;C:\Users\vsaji\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\vsaji\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\vsaji\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\vsaji\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\vsaji\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\vsaji\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\vsaji\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\vsaji\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\vsaji\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\vsaji\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\vsaji\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\vsaji\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\vsaji\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\vsaji\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\vsaji\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\vsaji\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\vsaji\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\vsaji\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\vsaji\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\vsaji\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\vsaji\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\vsaji\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\vsaji\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\vsaji\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\vsaji\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\vsaji\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\vsaji\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\vsaji\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\vsaji\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\vsaji\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\vsaji\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\vsaji\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\vsaji\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\vsaji\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\vsaji\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\vsaji\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\vsaji\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\vsaji\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\vsaji\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\vsaji\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\vsaji\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\vsaji\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\vsaji\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\vsaji\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\vsaji\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\vsaji\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\vsaji\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\vsaji\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\vsaji\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\vsaji\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\vsaji\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\vsaji\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\vsaji\AppData\Local\Temp\surefire2500415295798139231\surefirebooter-20240220150635056_3.jar C:\Users\vsaji\AppData\Local\Temp\surefire2500415295798139231 2024-02-20T15-06-34_938-jvmRun1 surefire-20240220150635056_1tmp surefire_0-20240220150635056_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\vsaji\TekArch\eclipse-workspace\SeleniumAutomationFrameworkPOM\target\test-classes;C:\Users\vsaji\TekArch\eclipse-workspace\SeleniumAutomationFrameworkPOM\target\classes;C:\Users\vsaji\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\vsaji\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\vsaji\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\vsaji\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\vsaji\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\vsaji\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\vsaji\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\vsaji\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\vsaji\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\vsaji\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\vsaji\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\vsaji\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\vsaji\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\vsaji\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\vsaji\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\vsaji\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\vsaji\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\vsaji\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\vsaji\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\vsaji\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\vsaji\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\vsaji\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\vsaji\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\vsaji\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\vsaji\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\vsaji\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\vsaji\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\vsaji\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\vsaji\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\vsaji\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\vsaji\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\vsaji\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\vsaji\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\vsaji\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\vsaji\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\vsaji\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\vsaji\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\vsaji\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\vsaji\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\vsaji\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\vsaji\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\vsaji\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\vsaji\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\vsaji\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\vsaji\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\vsaji\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\vsaji\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\vsaji\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\vsaji\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\vsaji\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\vsaji\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\vsaji\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\vsaji\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vsaji"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\vsaji\TekArch\eclipse-workspace\SeleniumAutomationFrameworkPOM"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\vsaji\AppData\Local\Temp\surefire2500415295798139231\surefirebooter-20240220150635056_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
+    <property name="user.name" value="vsaji"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\vsaji\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\vsaji\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="C:\Users\vsaji\TekArch\eclipse-workspace\SeleniumAutomationFrameworkPOM"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\Git\cmd;C:\Users\vsaji\AppData\Local\Microsoft\WindowsApps;C:\Users\vsaji\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Rememberme_login_3" classname="com.SalesforceApp.Automationtests.AutomationScripts" time="4.233">
+    <system-out><![CDATA[2024-02-20 15:06:36,149 INFO  SalesforceAppListnerUtility.java:72 - RegressionTest has started....................
+2024-02-20 15:06:36,326 INFO  BaseTest.java:46 - .........BeforeMethod setUpBeforeMethod executed---------------
+2024-02-20 15:06:37,696 INFO  BaseTest.java:67 - browser instance chrome created.
+2024-02-20 15:06:37,836 INFO  BaseTest.java:70 - window is maximized
+ChromeDriver: chrome on WINDOWS (0259e81c4927fd3db6a2a4350d7bbda7)
+2024-02-20 15:06:41,777 INFO  BaseTest.java:106 - https://attcom-dev-ed.develop.my.salesforce.com/is entered
+2024-02-20 15:06:41,778 INFO  SalesforceAppListnerUtility.java:23 - Rememberme_login_3.......test execution started........
+2024-02-20 15:06:41,881 INFO  BasePage.java:124 - userNameElementis visible
+2024-02-20 15:06:42,059 INFO  BasePage.java:55 - data is entered in Username textbox textbox
+2024-02-20 15:06:42,213 INFO  BasePage.java:55 - data is entered in password field textbox
+2024-02-20 15:06:42,523 INFO  BasePage.java:66 - Remember Mebutton is clicked
+2024-02-20 15:06:44,221 INFO  BasePage.java:66 - login buttonbutton is clicked
+2024-02-20 15:06:45,513 INFO  BasePage.java:124 - usermenuis visible
+2024-02-20 15:06:45,728 INFO  BasePage.java:124 - logoutis visible
+https://attcom-dev-ed.develop.my.salesforce.com/secur/logout.jsp
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 40020
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 20, 2024 3:06:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Rememberme_login_4a" classname="com.SalesforceApp.Automationtests.AutomationScripts" time="0.898">
+    <system-out><![CDATA[2024-02-20 15:06:46,017 INFO  SalesforceAppListnerUtility.java:30 - Rememberme_login_3.......test execution completed with success........
+2024-02-20 15:06:46,128 INFO  BaseTest.java:112 - browser instance closed
+2024-02-20 15:06:46,128 INFO  BaseTest.java:56 - ******tearDownAfterTestMethod executed***********
+2024-02-20 15:06:46,130 INFO  BaseTest.java:46 - .........BeforeMethod setUpBeforeMethod executed---------------
+2024-02-20 15:06:46,950 INFO  BaseTest.java:67 - browser instance chrome created.
+2024-02-20 15:06:47,092 INFO  BaseTest.java:70 - window is maximized
+ChromeDriver: chrome on WINDOWS (a4aefaec128aa4a8d7b6d0de227be551)
+2024-02-20 15:06:48,060 INFO  BaseTest.java:106 - https://attcom-dev-ed.develop.my.salesforce.com/is entered
+2024-02-20 15:06:48,060 INFO  SalesforceAppListnerUtility.java:23 - Rememberme_login_4a.......test execution started........
+2024-02-20 15:06:48,370 INFO  BasePage.java:66 - Forget passwordbutton is clicked
+2024-02-20 15:06:48,433 INFO  BasePage.java:124 - forgetpassusernameis visible
+2024-02-20 15:06:48,580 INFO  BasePage.java:55 - data is entered in Forgot Password Username textbox textbox
+2024-02-20 15:06:48,858 INFO  BasePage.java:66 - Forget password Continuebutton is clicked
+2024-02-20 15:06:48,926 INFO  BasePage.java:124 - userNameElementis visible
+2024-02-20 15:06:48,957 INFO  BasePage.java:77 - text is extracted from Check Your Email error message
+2024-02-20 15:06:48,958 INFO  BasePage.java:78 - Extracted Text We’ve sent you an email with a link to finish resetting your password.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 62438
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 20, 2024 3:06:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Rememberme_login_4b" classname="com.SalesforceApp.Automationtests.AutomationScripts" time="0.75">
+    <system-out><![CDATA[2024-02-20 15:06:48,959 INFO  SalesforceAppListnerUtility.java:30 - Rememberme_login_4a.......test execution completed with success........
+2024-02-20 15:06:49,070 INFO  BaseTest.java:112 - browser instance closed
+2024-02-20 15:06:49,070 INFO  BaseTest.java:56 - ******tearDownAfterTestMethod executed***********
+2024-02-20 15:06:49,073 INFO  BaseTest.java:46 - .........BeforeMethod setUpBeforeMethod executed---------------
+2024-02-20 15:06:49,857 INFO  BaseTest.java:67 - browser instance chrome created.
+2024-02-20 15:06:49,992 INFO  BaseTest.java:70 - window is maximized
+ChromeDriver: chrome on WINDOWS (9ac7a30187014a1e54dd5c81c6cc6f34)
+2024-02-20 15:06:50,662 INFO  BaseTest.java:106 - https://attcom-dev-ed.develop.my.salesforce.com/is entered
+2024-02-20 15:06:50,662 INFO  SalesforceAppListnerUtility.java:23 - Rememberme_login_4b.......test execution started........
+2024-02-20 15:06:50,721 INFO  BasePage.java:124 - userNameElementis visible
+2024-02-20 15:06:50,910 INFO  BasePage.java:55 - data is entered in Username textbox textbox
+2024-02-20 15:06:51,053 INFO  BasePage.java:55 - data is entered in password field textbox
+2024-02-20 15:06:51,362 INFO  BasePage.java:66 - login buttonbutton is clicked
+2024-02-20 15:06:51,392 INFO  BasePage.java:124 - invaliduserpassis visible
+2024-02-20 15:06:51,413 INFO  BasePage.java:77 - text is extracted from error message for invalid username & password
+2024-02-20 15:06:51,413 INFO  BasePage.java:78 - Extracted Text Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 51742
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 20, 2024 3:06:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="invalid_login_1" classname="com.SalesforceApp.Automationtests.AutomationScripts" time="0.687">
+    <system-out><![CDATA[2024-02-20 15:06:51,414 INFO  SalesforceAppListnerUtility.java:30 - Rememberme_login_4b.......test execution completed with success........
+2024-02-20 15:06:51,525 INFO  BaseTest.java:112 - browser instance closed
+2024-02-20 15:06:51,525 INFO  BaseTest.java:56 - ******tearDownAfterTestMethod executed***********
+2024-02-20 15:06:51,527 INFO  BaseTest.java:46 - .........BeforeMethod setUpBeforeMethod executed---------------
+2024-02-20 15:06:52,291 INFO  BaseTest.java:67 - browser instance chrome created.
+2024-02-20 15:06:52,425 INFO  BaseTest.java:70 - window is maximized
+ChromeDriver: chrome on WINDOWS (10ab7abca7339623cdf02f6bd38c0b91)
+2024-02-20 15:06:53,275 INFO  BaseTest.java:106 - https://attcom-dev-ed.develop.my.salesforce.com/is entered
+2024-02-20 15:06:53,276 INFO  SalesforceAppListnerUtility.java:23 - invalid_login_1.......test execution started........
+2024-02-20 15:06:53,317 INFO  BasePage.java:124 - userNameElementis visible
+2024-02-20 15:06:53,472 INFO  BasePage.java:55 - data is entered in Username textbox textbox
+2024-02-20 15:06:53,571 INFO  BasePage.java:55 - data is entered in password field textbox
+2024-02-20 15:06:53,885 INFO  BasePage.java:66 - login buttonbutton is clicked
+2024-02-20 15:06:53,919 INFO  BasePage.java:124 - userNameElementis visible
+2024-02-20 15:06:53,963 INFO  BasePage.java:77 - text is extracted from error message
+2024-02-20 15:06:53,963 INFO  BasePage.java:78 - Extracted Text Please enter your password.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 61916
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 20, 2024 3:06:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="succesLogin_2" classname="com.SalesforceApp.Automationtests.AutomationScripts" time="3.11">
+    <system-out><![CDATA[2024-02-20 15:06:53,964 INFO  SalesforceAppListnerUtility.java:30 - invalid_login_1.......test execution completed with success........
+2024-02-20 15:06:54,077 INFO  BaseTest.java:112 - browser instance closed
+2024-02-20 15:06:54,078 INFO  BaseTest.java:56 - ******tearDownAfterTestMethod executed***********
+2024-02-20 15:06:54,079 INFO  BaseTest.java:46 - .........BeforeMethod setUpBeforeMethod executed---------------
+2024-02-20 15:06:54,835 INFO  BaseTest.java:67 - browser instance chrome created.
+2024-02-20 15:06:54,966 INFO  BaseTest.java:70 - window is maximized
+ChromeDriver: chrome on WINDOWS (837e4478401aaf77b31c77fb50b90acc)
+2024-02-20 15:06:55,639 INFO  BaseTest.java:106 - https://attcom-dev-ed.develop.my.salesforce.com/is entered
+2024-02-20 15:06:55,640 INFO  SalesforceAppListnerUtility.java:23 - succesLogin_2.......test execution started........
+2024-02-20 15:06:55,640 INFO  AutomationScripts.java:55 - ******Login_to_Salesforce automation script started***********
+2024-02-20 15:06:55,680 INFO  BasePage.java:124 - userNameElementis visible
+2024-02-20 15:06:55,831 INFO  BasePage.java:55 - data is entered in Username textbox textbox
+2024-02-20 15:06:55,944 INFO  BasePage.java:55 - data is entered in password field textbox
+2024-02-20 15:06:57,653 INFO  BasePage.java:66 - login buttonbutton is clicked
+2024-02-20 15:06:58,743 INFO  BasePage.java:124 - Salesforce HomePageis visible
+text extracted from Salesforce HomePage=Home Page ~ Salesforce - Developer Edition
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 42153
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 20, 2024 3:06:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
